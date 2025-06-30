@@ -49,9 +49,14 @@
 git clone https://github.com/your-repo/STS_Tools.git
 cd STS_Tools
 pip install -r requirements.txt
+修改config目录中的
+```
 
-### 运行流程
+
+## 运行流程
 ```bash
 启动CapsWriter（可选）
 启动indextts
 python main.py
+选择输出设备和参考音频
+开始推理即可
