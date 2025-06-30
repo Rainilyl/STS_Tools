@@ -12,41 +12,7 @@
 ## 🌐 系统架构
 
 ### 核心流程图
-```mermaid
-graph LR
-    %% 输入层
-    A[多模态输入源] --> B[统一文本提取]
-    A1[🎤 语音输入] --> B
-    A2[📹 视频音频] --> B
-    A3[🖥️ OCR屏幕] --> B
-    A4[📝 会议记录] --> B
-
-    %% 处理层
-    B --> C[文本标准化处理]
-    C --> D[TTS推理引擎]
-    
-    %% TTS引擎池
-    D --> D1[IndexTTS]
-    D --> D2[自定义TTS API]
-    D --> D3[其他引擎]
-
-    %% 输出层
-    D1 --> E[音频输出系统]
-    D2 --> E
-    D3 --> E
-    E --> E1[🔊 实时播放]
-    E --> E2[💾 保存音频]
-
-    %% 配色方案
-    classDef input fill:#ffccff,stroke:#333;
-    classDef process fill:#ff9966,stroke:#333;
-    classDef tts fill:#ffccff,stroke:#333;
-    classDef output fill:#ffcc99,stroke:#333;
-    class A,A1,A2,A3,A4 input;
-    class B,C process;
-    class D,D1,D2,D3 tts;
-    class E,E1,E2 output;
-```
+![架构图](STS_Tools_update.png)
 
 ### 架构说明
 | **模块**         | **功能说明**                                                                 |
