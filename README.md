@@ -4,7 +4,7 @@
 *STS_Tools工具界面*
 
 ## 📖 项目概述
-**STS_Tools** 是一个正在开发中的多功能语音处理工具。
+**STS_Tools** 是一个正在开发中语音处理工具，完整版会支持多种与自定义的获取方式-更全面的文本处理与转换速度优化-支持热门tts项目或自定义，现在仅支持通过剪切板获取文本并自动推理播放至输出设备，后续更新会按照架构图完善功能。
 
 
 
@@ -49,7 +49,7 @@
 git clone https://github.com/your-repo/STS_Tools.git
 cd STS_Tools
 pip install -r requirements.txt
-修改config目录中的
+修改config目录中的settings.py文件（填写音频保存位置与api地址）
 ```
 
 
