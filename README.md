@@ -1,6 +1,6 @@
 # STS_Tools  
 
-![工具UI](Example.png)  
+![工具UI](Example.PNG)  
 
 ## 📖 项目概述  
  
